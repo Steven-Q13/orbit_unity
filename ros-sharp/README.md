@@ -32,6 +32,13 @@ The latest release is also being published in the [Unity Asset Store](https://as
 
 Please get the latest development version directly from the [tip of this master branch](https://github.com/siemens/ros-sharp).
 
+## Unity Robotics Hub ##
+In 11/2020 Unity launched [Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) and included a major part of ROS#.
+* [Short Description](https://github.com/siemens/ros-sharp/wiki/Ext_UnityRoboticsHub) on Unity Robotics Hub written by Unity developers
+* [Differences](https://github.com/siemens/ros-sharp/wiki/Ext_RosSharp_RoboticsHub) between ROS# and Unity Robotics Hub
+
+We are in close contact with the developers and decided to run both initiatives in parallel.
+
 ## Licensing ##
 
 ROS# is open source under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0) and is free for commercial use.
@@ -47,8 +54,8 @@ ROS# is open source under the [Apache 2.0 license](http://www.apache.org/license
 
 * [ROS#](https://github.com/siemens/ros-sharp) is developed for Windows and has successfully been used on a variety of other platforms community members.
 
-* The [RosSharp](https://github.com/siemens/ros-sharp/tree/master/Libraries/) Visual Studio solution requires .NET Framework 4.6 and Visual Studio 2017 or higher.
-* The Unity Project [Unity3D](https://github.com/siemens/ros-sharp/tree/master/Unity3D) requires Unity Version 2018.3 or higher.
+* The [RosSharp](https://github.com/siemens/ros-sharp/tree/master/Libraries/) Visual Studio solution requires .NET Framework 4.6.1 and Visual Studio 2017 or higher.
+* The Unity Project [Unity3D](https://github.com/siemens/ros-sharp/tree/master/Unity3D) has been developed with Unity Version 2019.4.18f (LTS) and should be compatible also with older versions.
 In Versions below 2019.3, make sure to set the scripting runtime version to `.NET 4.x Equivalent` ([see Wiki page](https://github.com/siemens/ros-sharp/wiki/User_Inst_Unity3DOnWindows)).
 
 * Please find a UWP version of ROS# [here](https://github.com/EricVoll/ros-sharp).
@@ -62,6 +69,6 @@ In Versions below 2019.3, make sure to set the scripting runtime version to `.NE
 
 ---
 
-© Siemens AG, 2017-2020
+© Siemens AG, 2017-2021
 
 Author: Dr. Martin Bischoff (martin.bischoff@siemens.com)
